@@ -97,7 +97,7 @@ func NewParameters(bitlen int) *Parameters {
 	if err != nil {
 		panic("Could not generate randon prime")
 	}
-	n := 2
+	n := 3
 	return &Parameters{
 		n:       n,
 		M:       m,
